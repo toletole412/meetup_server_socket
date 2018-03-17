@@ -1,0 +1,22 @@
+{
+    "name": "meetup"
+    , "version": "v0.1.0-SNAPSHOT"
+    , "description": "Meetup API node.js client"
+    , "keywords": ["meetup","api"]
+    , "homepage": "https://github.com/softprops/meetup-js"
+    , "author": "softprops"
+    , "licenses": [{
+        "type": "MIT"
+        , "url": "http://github.com/softprops/meetup-js/raw/master/LICENSE"
+     }]
+    , "repository": {
+        "type": "git"
+        , "url": "http://github.com/softprops/meetup-js.git"
+    }
+    , "dependencies": {
+        "oauth": ">=0.8.4"
+        , "lodash": ">=0.9.1"
+    }
+    , "engines": ["node >=0.2.0"]
+    , "main": "./lib/meetup"
+}
